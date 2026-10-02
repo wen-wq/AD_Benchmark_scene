@@ -1,0 +1,44 @@
+{
+  "baseline": 0,
+  "prompt_version": "director-v1",
+  "model": {
+    "backend": "rule",
+    "model_id": "rules-v1",
+    "is_mock": false
+  },
+  "generation": {
+    "seed": 6,
+    "temperature": 0,
+    "max_new_tokens": 512
+  },
+  "bev_used": false,
+  "strict_json_valid": true,
+  "json_object_valid": true,
+  "schema_valid": true,
+  "feasibility": {
+    "status": "pass",
+    "errors": [],
+    "warnings": [],
+    "checked": [
+      "actor_exists",
+      "actor_type",
+      "behavior_bounds",
+      "crossing_target",
+      "longitudinal_position"
+    ],
+    "simulation_verified": false
+  },
+  "success": true,
+  "error": null,
+  "recovered": false,
+  "legacy_normalized": false,
+  "event_type": "pedestrian_crossing",
+  "actor": "ped_1",
+  "latency_s": 0.000188,
+  "inputs": {
+    "scenario": {
+      "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+    }
+  }
+}

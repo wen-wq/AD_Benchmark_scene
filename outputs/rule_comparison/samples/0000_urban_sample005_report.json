@@ -1,0 +1,48 @@
+{
+  "baseline": 0,
+  "prompt_version": "director-v1",
+  "model": {
+    "backend": "rule",
+    "model_id": "rules-v1",
+    "is_mock": false
+  },
+  "generation": {
+    "seed": 5,
+    "temperature": 0,
+    "max_new_tokens": 512
+  },
+  "bev_used": false,
+  "strict_json_valid": true,
+  "json_object_valid": true,
+  "schema_valid": true,
+  "feasibility": {
+    "status": "unknown",
+    "errors": [],
+    "warnings": [
+      "Missing route positions s_m; forward placement is unverified"
+    ],
+    "checked": [
+      "actor_exists",
+      "actor_type",
+      "behavior_bounds",
+      "travel_direction",
+      "actor_speed",
+      "lane_adjacency",
+      "lateral_acceleration"
+    ],
+    "simulation_verified": false
+  },
+  "success": true,
+  "error": null,
+  "recovered": false,
+  "legacy_normalized": false,
+  "event_type": "cut_in",
+  "actor": "car_1",
+  "latency_s": 0.000146,
+  "inputs": {
+    "scenario": {
+      "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "baseline": 1,
+  "metrics": {
+    "attempts": 1,
+    "interface_test_only": true,
+    "rate_denominator": "all attempts, including input/model/transport failures",
+    "strict_json_valid_rate": 1.0,
+    "json_object_valid_rate": 1.0,
+    "schema_valid_rate": 1.0,
+    "export_success_rate": 1.0,
+    "static_feasibility_pass_rate": 1.0,
+    "static_feasibility_unknown_rate": 0.0,
+    "static_feasibility_fail_rate": 0.0,
+    "feasibility_not_checked_rate": 0.0,
+    "simulation_verified_rate": 0.0,
+    "diversity": {
+      "denominator": "exported events",
+      "sample_count": 1,
+      "event_counts": {
+        "cut_in": 1,
+        "sudden_braking": 0,
+        "pedestrian_crossing": 0
+      },
+      "unique_event_types": 1,
+      "event_type_entropy_bits": -0.0,
+      "unique_target_actors": 1
+    }
+  },
+  "samples": [
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 0,
+      "bev": null,
+      "report": {
+        "baseline": 1,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "replay",
+          "model_id": "fixture",
+          "is_mock": true
+        },
+        "generation": {
+          "seed": 0,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.0004,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\interface_text\\samples\\0000_urban_full_sample000_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\interface_text\\samples\\0000_urban_full_sample000_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\interface_text\\samples\\0000_urban_full_sample000_raw.txt"
+      }
+    }
+  ]
+}

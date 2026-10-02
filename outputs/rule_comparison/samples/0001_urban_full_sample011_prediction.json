@@ -1,0 +1,18 @@
+{
+  "event": "sudden_braking",
+  "actor": "lead_1",
+  "trigger": {
+    "type": "distance",
+    "value": 15.0,
+    "unit": "m",
+    "reference": "ego",
+    "operator": "lte"
+  },
+  "behavior": {
+    "type": "brake",
+    "deceleration_mps2": -5.0,
+    "duration_s": 1.5
+  },
+  "schema_version": "1.0",
+  "parameters": {}
+}

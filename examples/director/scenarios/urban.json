@@ -1,0 +1,5 @@
+{
+  "map": "urban",
+  "ego": {"speed": 40, "lane": 2},
+  "actors": [{"id": "car_1", "type": "vehicle", "lane": 3, "speed": 35}]
+}

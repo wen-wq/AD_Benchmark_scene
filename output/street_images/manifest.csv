@@ -1,0 +1,11 @@
+﻿route_distance_m,lon,lat,status,provider,image,distance_to_sample_m,heading_deg,page_url,additional_kartaview_reference
+0,116.3096328,39.9905859,geotagged_photo,Wikimedia Commons,s0000_commons.jpg,21.2,,https://commons.wikimedia.org/wiki/File:East_gate_of_Peking_University_(20250605110404).jpg,kartaview/s0000.jpg
+100,116.3097036,39.9896892,geotagged_photo,Wikimedia Commons,s0100_commons.jpg,78.5,,"https://commons.wikimedia.org/wiki/File:Bank_of_Beijing_Outside_Peking_U._East_Gate,_May_24,_2010_-_panoramio.jpg",kartaview/s0100.jpg
+200,116.3097772,39.9887927,street_level_photo,KartaView,kartaview/s0200.jpg,0.8,177.39,https://api.openstreetcam.org/2.0/photo/2535638441,kartaview/s0200.jpg
+300,116.3098648,39.9878969,street_level_photo,KartaView,kartaview/s0300.jpg,1.0,174.93,https://api.openstreetcam.org/2.0/photo/2535638553,kartaview/s0300.jpg
+400,116.3099354,39.9870002,street_level_photo,KartaView,kartaview/s0400.jpg,1.0,177.22,https://api.openstreetcam.org/2.0/photo/2535638713,kartaview/s0400.jpg
+500,116.3100088,39.9861037,geotagged_photo,Wikimedia Commons,s0500_commons.jpg,32.4,,https://commons.wikimedia.org/wiki/File:West_gate_of_Zhongguancun_No.2_Primary_School_main_campus_(20210104134524).jpg,kartaview/s0500.jpg
+600,116.3098639,39.9852434,geotagged_photo,Wikimedia Commons,s0600_commons.jpg,89.6,,https://commons.wikimedia.org/wiki/File:Zhongguancun_No.2_Primary_School_main_campus_(20210104134827).jpg,kartaview/s0600.jpg
+700,116.3087032,39.9852304,missing,,,,,,
+800,116.3075308,39.9852279,missing,,,,,,
+900,116.3063589,39.9852013,missing,,,,,,

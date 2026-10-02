@@ -1,0 +1,1402 @@
+{
+  "baseline": 0,
+  "metrics": {
+    "attempts": 24,
+    "interface_test_only": false,
+    "rate_denominator": "all attempts, including input/model/transport failures",
+    "strict_json_valid_rate": 1.0,
+    "json_object_valid_rate": 1.0,
+    "schema_valid_rate": 1.0,
+    "export_success_rate": 1.0,
+    "static_feasibility_pass_rate": 0.5,
+    "static_feasibility_unknown_rate": 0.5,
+    "static_feasibility_fail_rate": 0.0,
+    "feasibility_not_checked_rate": 0.0,
+    "simulation_verified_rate": 0.0,
+    "diversity": {
+      "denominator": "exported events",
+      "sample_count": 24,
+      "event_counts": {
+        "cut_in": 17,
+        "sudden_braking": 4,
+        "pedestrian_crossing": 3
+      },
+      "unique_event_types": 3,
+      "event_type_entropy_bits": 1.158222675578688,
+      "unique_target_actors": 3
+    }
+  },
+  "samples": [
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 0,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 0,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000301,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample000_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample000_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample000_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 1,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 1,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000157,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample001_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample001_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample001_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 2,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 2,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000146,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample002_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample002_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample002_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 3,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 3,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.00015,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample003_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample003_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample003_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 4,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 4,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000148,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample004_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample004_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample004_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 5,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 5,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000146,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample005_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample005_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample005_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 6,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 6,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000146,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample006_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample006_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample006_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 7,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 7,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000148,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample007_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample007_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample007_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 8,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 8,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000153,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample008_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample008_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample008_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 9,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 9,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.00014,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample009_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample009_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample009_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 10,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 10,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000143,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample010_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample010_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample010_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+      "seed": 11,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 11,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "unknown",
+          "errors": [],
+          "warnings": [
+            "Missing route positions s_m; forward placement is unverified"
+          ],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000144,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban.json",
+            "sha256": "5bb480331ead2012944faecf833f7a73018068044d70e1b6240d9565196f4e03"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample011_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample011_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0000_urban_sample011_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 0,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 0,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "same_lane",
+            "nonnegative_final_speed",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "sudden_braking",
+        "actor": "lead_1",
+        "latency_s": 0.0002,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample000_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample000_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample000_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 1,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 1,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000217,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample001_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample001_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample001_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 2,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 2,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000188,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample002_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample002_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample002_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 3,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 3,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000195,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample003_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample003_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample003_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 4,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 4,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000193,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample004_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample004_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample004_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 5,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 5,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "crossing_target",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "pedestrian_crossing",
+        "actor": "ped_1",
+        "latency_s": 0.000191,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample005_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample005_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample005_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 6,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 6,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "crossing_target",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "pedestrian_crossing",
+        "actor": "ped_1",
+        "latency_s": 0.000188,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample006_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample006_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample006_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 7,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 7,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "same_lane",
+            "nonnegative_final_speed",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "sudden_braking",
+        "actor": "lead_1",
+        "latency_s": 0.000264,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample007_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample007_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample007_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 8,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 8,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "lane_adjacency",
+            "lateral_acceleration",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "cut_in",
+        "actor": "car_1",
+        "latency_s": 0.000193,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample008_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample008_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample008_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 9,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 9,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "same_lane",
+            "nonnegative_final_speed",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "sudden_braking",
+        "actor": "lead_1",
+        "latency_s": 0.000183,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample009_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample009_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample009_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 10,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 10,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "crossing_target",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "pedestrian_crossing",
+        "actor": "ped_1",
+        "latency_s": 0.000194,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample010_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample010_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample010_raw.txt"
+      }
+    },
+    {
+      "scenario": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "seed": 11,
+      "bev": null,
+      "report": {
+        "baseline": 0,
+        "prompt_version": "director-v1",
+        "model": {
+          "backend": "rule",
+          "model_id": "rules-v1",
+          "is_mock": false
+        },
+        "generation": {
+          "seed": 11,
+          "temperature": 0,
+          "max_new_tokens": 512
+        },
+        "bev_used": false,
+        "strict_json_valid": true,
+        "json_object_valid": true,
+        "schema_valid": true,
+        "feasibility": {
+          "status": "pass",
+          "errors": [],
+          "warnings": [],
+          "checked": [
+            "actor_exists",
+            "actor_type",
+            "behavior_bounds",
+            "travel_direction",
+            "actor_speed",
+            "same_lane",
+            "nonnegative_final_speed",
+            "longitudinal_position"
+          ],
+          "simulation_verified": false
+        },
+        "success": true,
+        "error": null,
+        "recovered": false,
+        "legacy_normalized": false,
+        "event_type": "sudden_braking",
+        "actor": "lead_1",
+        "latency_s": 0.000186,
+        "inputs": {
+          "scenario": {
+            "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+            "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+          }
+        }
+      },
+      "artifacts": {
+        "prediction": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample011_prediction.json",
+        "report": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample011_report.json",
+        "raw": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\outputs\\rule_comparison\\samples\\0001_urban_full_sample011_raw.txt"
+      }
+    }
+  ]
+}

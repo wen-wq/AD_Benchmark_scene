@@ -1,0 +1,5 @@
+# Optional local inference stack, isolated from the existing generator environment.
+# Transformers is pinned to the documented interface used in vlm_wrapper.py.
+torch>=2.5,<3
+transformers==4.57.1
+Pillow>=10,<13

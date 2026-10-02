@@ -1,0 +1,51 @@
+{
+  "baseline": 2,
+  "prompt_version": "director-v1",
+  "model": {
+    "backend": "replay",
+    "model_id": "fixture",
+    "is_mock": true
+  },
+  "generation": {
+    "seed": 0,
+    "temperature": 0,
+    "max_new_tokens": 512
+  },
+  "bev_used": true,
+  "strict_json_valid": true,
+  "json_object_valid": true,
+  "schema_valid": true,
+  "feasibility": {
+    "status": "pass",
+    "errors": [],
+    "warnings": [],
+    "checked": [
+      "actor_exists",
+      "actor_type",
+      "behavior_bounds",
+      "travel_direction",
+      "actor_speed",
+      "lane_adjacency",
+      "lateral_acceleration",
+      "longitudinal_position"
+    ],
+    "simulation_verified": false
+  },
+  "success": true,
+  "error": null,
+  "recovered": false,
+  "legacy_normalized": false,
+  "event_type": "cut_in",
+  "actor": "car_1",
+  "latency_s": 0.000434,
+  "inputs": {
+    "scenario": {
+      "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\scenarios\\urban_full.json",
+      "sha256": "9468eaa7162200ac670eb97b433eabf9275e2b105f7de7db4d359dfff1f6f3ca"
+    },
+    "bev": {
+      "path": "E:\\2026research\\pku-autodrive\\pku_world_scenario_pipeline_v2\\pku-world-scenario-v2\\examples\\director\\bev\\urban_full.png",
+      "sha256": "28af63a622b8af16fa34f2848bc176bc00d9c793ec312efd92077e8b5fbdca58"
+    }
+  }
+}

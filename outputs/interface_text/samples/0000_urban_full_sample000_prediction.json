@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "event": "cut_in",
+  "actor": "car_1",
+  "trigger": {
+    "type": "distance",
+    "value": 15,
+    "unit": "m",
+    "reference": "ego",
+    "operator": "lte"
+  },
+  "behavior": {
+    "type": "lane_change",
+    "target_lane": "ego_lane",
+    "duration_s": 3
+  },
+  "parameters": {}
+}

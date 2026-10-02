@@ -1,0 +1,12 @@
+{
+  "schema_version": 2,
+  "author": "Codex session LLM",
+  "intent": "Five invented, physically constrained stress-test emergencies along the public-road route outside PKU; none is an observed incident.",
+  "events": [
+    {"id":"E1","distance_m":140,"type":"lead_vehicle_hard_brake","reason":"Front car abruptly brakes on Zhongguancun North Street","lead_decel_mps2":-5.4,"lead_brake_duration_s":1.4,"ego_reaction_s":0.45,"ego_brake_duration_s":1.5},
+    {"id":"E2","distance_m":300,"type":"left_cutin","reason":"Vehicle from the adjacent left lane merges into the ego lane with a short gap","initial_gap_m":26,"actor_speed_mps":8.1,"cutin_duration_s":2.8,"ego_reaction_s":0.55,"ego_brake_duration_s":1.35},
+    {"id":"E3","distance_m":465,"type":"right_cutin","reason":"Vehicle from the right lane cuts into the ego lane before the intersection","initial_gap_m":25,"actor_speed_mps":7.7,"cutin_duration_s":2.6,"ego_reaction_s":0.5,"ego_brake_duration_s":1.4},
+    {"id":"E4","distance_m":720,"type":"right_cutin","subtype":"curbside_pullout","reason":"Curbside car pulls out into traffic on Haidian Road","initial_gap_m":24,"actor_speed_mps":6.6,"cutin_duration_s":3.1,"ego_reaction_s":0.45,"ego_brake_duration_s":1.45,"yield_speed_mps":4.0,"yield_duration_s":9.0},
+    {"id":"E5","distance_m":870,"type":"right_cutin","reason":"A slower car from the curb lane merges close ahead near the South Gate approach","initial_gap_m":24,"actor_speed_mps":5.5,"cutin_duration_s":2.5,"hold_speed_mps":5.8,"hold_duration_s":5.0,"pre_event_visibility_s":2.5,"ego_reaction_s":0.42,"ego_brake_duration_s":1.5}
+  ]
+}

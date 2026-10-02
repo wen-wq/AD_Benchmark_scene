@@ -1,0 +1,27 @@
+{
+  "overlap_frames": 0,
+  "first_hits": [],
+  "overlap_pairs": [],
+  "cutin_metrics": [
+    {
+      "id": "cutin_E2",
+      "min_lane_gap_m": 24.49,
+      "max_lateral_step_m": 0.214
+    },
+    {
+      "id": "cutin_E3",
+      "min_lane_gap_m": 22.61,
+      "max_lateral_step_m": 0.23
+    },
+    {
+      "id": "cutin_E4",
+      "min_lane_gap_m": 11.06,
+      "max_lateral_step_m": 0.23
+    },
+    {
+      "id": "cutin_E5",
+      "min_lane_gap_m": 15.73,
+      "max_lateral_step_m": 0.24
+    }
+  ]
+}

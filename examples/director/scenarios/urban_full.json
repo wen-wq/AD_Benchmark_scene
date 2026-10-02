@@ -1,0 +1,16 @@
+{
+  "scenario_id": "urban_director_demo",
+  "speed_unit": "km/h",
+  "map": {
+    "name": "urban",
+    "lane_ids": [1, 2, 3],
+    "adjacent_lanes": [[1, 2], [2, 3]],
+    "lane_width_m": 3.5
+  },
+  "ego": {"id": "ego", "speed": 40, "lane": 2, "s_m": 100},
+  "actors": [
+    {"id": "car_1", "type": "vehicle", "lane": 3, "speed": 35, "s_m": 120},
+    {"id": "lead_1", "type": "vehicle", "lane": 2, "speed": 36, "s_m": 125},
+    {"id": "ped_1", "type": "pedestrian", "lane": 1, "speed": 4.5, "s_m": 118}
+  ]
+}

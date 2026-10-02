@@ -1,0 +1,840 @@
+{
+  "radius_m": 120,
+  "stations": [
+    {
+      "route_distance_m": 0,
+      "lat": 39.9905859,
+      "lon": 116.3096328,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638089",
+          "lat": "39.990620",
+          "lng": "116.309626",
+          "heading": "174.01",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_455_272d7edea7a8b1933a19d0967b339e2c.jpeg",
+          "shotDate": "2025-01-19 07:19:06.100"
+        },
+        {
+          "id": "2535668009",
+          "lat": "39.990627",
+          "lng": "116.309871",
+          "heading": "357.22",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_703_b02f5bb9e0ddac7a6430fcb5e235830e.jpeg",
+          "shotDate": "2025-01-19 06:10:26.100"
+        }
+      ],
+      "commons_count": 21,
+      "commons_candidates": [
+        {
+          "title": "File:Platform of Peking Univ. East Gate Station (20210202165908).jpg",
+          "distance_api_m": 6.8,
+          "distance_calc_m": 6.8,
+          "lat": 39.99057,
+          "lon": 116.30971
+        },
+        {
+          "title": "File:4221979 at Zhongguanyuan (20210216144137).jpg",
+          "distance_api_m": 9.8,
+          "distance_calc_m": 9.8,
+          "lat": 39.990556,
+          "lon": 116.309525
+        },
+        {
+          "title": "File:Peking University Science and Technology Mansion (20210512142319).jpg",
+          "distance_api_m": 13,
+          "distance_calc_m": 13.0,
+          "lat": 39.990703,
+          "lon": 116.309631
+        },
+        {
+          "title": "File:South concourse of Peking Univ. East Gate Station (20210305143415).jpg",
+          "distance_api_m": 14.2,
+          "distance_calc_m": 14.2,
+          "lat": 39.99046,
+          "lon": 116.30966
+        },
+        {
+          "title": "File:Mock-up of Platform Nine and Three-Quarters at Peking Univ. East Gate Station (20240412120939).jpg",
+          "distance_api_m": 17,
+          "distance_calc_m": 17.0,
+          "lat": 39.990738,
+          "lon": 116.309652
+        },
+        {
+          "title": "File:Exit D lift of Peking Univ. East Gate Station (20210216144238).jpg",
+          "distance_api_m": 17,
+          "distance_calc_m": 17.1,
+          "lat": 39.990453,
+          "lon": 116.309533
+        },
+        {
+          "title": "File:Mock-up of Platform Nine and Three-Quarters at Peking Univ. East Gate Station (20240412120722).jpg",
+          "distance_api_m": 19.9,
+          "distance_calc_m": 20.0,
+          "lat": 39.990729,
+          "lon": 116.309774
+        },
+        {
+          "title": "File:East gate of Peking University (20250605110404).jpg",
+          "distance_api_m": 21.2,
+          "distance_calc_m": 21.2,
+          "lat": 39.990753,
+          "lon": 116.309753
+        },
+        {
+          "title": "File:40311812 at Zhongguanyuan (20170707135152).jpg",
+          "distance_api_m": 38.4,
+          "distance_calc_m": 38.5,
+          "lat": 39.990728,
+          "lon": 116.310044
+        },
+        {
+          "title": "File:North concourse of Peking Univ. East Gate Station (20210305143237).jpg",
+          "distance_api_m": 55,
+          "distance_calc_m": 55.0,
+          "lat": 39.99108,
+          "lon": 116.30962
+        },
+        {
+          "title": "File:Bank of Beijing Outside Peking U. East Gate, May 24, 2010 - panoramio.jpg",
+          "distance_api_m": 57.4,
+          "distance_calc_m": 57.5,
+          "lat": 39.99029,
+          "lon": 116.310185
+        },
+        {
+          "title": "File:Exit D of Peking Univ. East Gate Station (20210216144321).jpg",
+          "distance_api_m": 60.3,
+          "distance_calc_m": 60.4,
+          "lat": 39.99005,
+          "lon": 116.309525
+        },
+        {
+          "title": "File:Exit C of East Gate of Peking University Station (20170707135051).jpg",
+          "distance_api_m": 69.5,
+          "distance_calc_m": 69.6,
+          "lat": 39.990681,
+          "lon": 116.310439
+        },
+        {
+          "title": "File:North concourse of Peking Univ. East Gate Station (20210305143146).jpg",
+          "distance_api_m": 71.6,
+          "distance_calc_m": 71.7,
+          "lat": 39.99123,
+          "lon": 116.30961
+        },
+        {
+          "title": "File:Exit C of Peking Univ. East Gate Station (20210104114140).jpg",
+          "distance_api_m": 73.2,
+          "distance_calc_m": 73.3,
+          "lat": 39.990703,
+          "lon": 116.310478
+        },
+        {
+          "title": "File:Exit D of East Gate of Peking University Station (20170707134736).jpg",
+          "distance_api_m": 75.1,
+          "distance_calc_m": 75.2,
+          "lat": 39.989911,
+          "lon": 116.309608
+        },
+        {
+          "title": "File:Exit B of Peking Univ. East Gate Station (20210216143341).jpg",
+          "distance_api_m": 80.1,
+          "distance_calc_m": 80.2,
+          "lat": 39.991067,
+          "lon": 116.310333
+        },
+        {
+          "title": "File:PKU Chemistry Building (20250331104337).jpg",
+          "distance_api_m": 86.4,
+          "distance_calc_m": 86.5,
+          "lat": 39.990775,
+          "lon": 116.310617
+        },
+        {
+          "title": "File:Sinfonische Blasorchester des Bayerischen Blasmusikverbands at Forbidden City Concert Hall, Beijing.jpg",
+          "distance_api_m": 86.6,
+          "distance_calc_m": 86.7,
+          "lat": 39.991348,
+          "lon": 116.309425
+        },
+        {
+          "title": "File:1628061 at Zhongguanyuanbeizhan (20210216142851).jpg",
+          "distance_api_m": 119.8,
+          "distance_calc_m": 119.9,
+          "lat": 39.991633,
+          "lon": 116.309303
+        },
+        {
+          "title": "File:40222551 at Zhongguanyuanbeizhan (20210216142646).jpg",
+          "distance_api_m": 119.8,
+          "distance_calc_m": 119.9,
+          "lat": 39.991633,
+          "lon": 116.309303
+        }
+      ]
+    },
+    {
+      "route_distance_m": 100,
+      "lat": 39.9896892,
+      "lon": 116.3097036,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638265",
+          "lat": "39.989698",
+          "lng": "116.309708",
+          "heading": "176.63",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_466_fdc338e5adfe30a377ebc16d7fabb04f.jpeg",
+          "shotDate": "2025-01-19 07:19:17.100"
+        },
+        {
+          "id": "2535667593",
+          "lat": "39.989660",
+          "lng": "116.309949",
+          "heading": "359.22",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_677_57c8ca977eaa7da745f8830e8b9edc4d.jpeg",
+          "shotDate": "2025-01-19 06:09:25.600"
+        }
+      ],
+      "commons_count": 15,
+      "commons_candidates": [
+        {
+          "title": "File:Exit D of East Gate of Peking University Station (20170707134736).jpg",
+          "distance_api_m": 26,
+          "distance_calc_m": 26.0,
+          "lat": 39.989911,
+          "lon": 116.309608
+        },
+        {
+          "title": "File:Exit D of Peking Univ. East Gate Station (20210216144321).jpg",
+          "distance_api_m": 42.9,
+          "distance_calc_m": 43.0,
+          "lat": 39.99005,
+          "lon": 116.309525
+        },
+        {
+          "title": "File:Exit C interface of East Gate of Peking University Station (20170707134939).jpg",
+          "distance_api_m": 48.2,
+          "distance_calc_m": 48.3,
+          "lat": 39.9893,
+          "lon": 116.309953
+        },
+        {
+          "title": "File:Exit D interface of East Gate of Peking University Station (20170707134928).jpg",
+          "distance_api_m": 48.2,
+          "distance_calc_m": 48.3,
+          "lat": 39.9893,
+          "lon": 116.309953
+        },
+        {
+          "title": "File:Bank of Beijing Outside Peking U. East Gate, May 24, 2010 - panoramio.jpg",
+          "distance_api_m": 78.4,
+          "distance_calc_m": 78.5,
+          "lat": 39.99029,
+          "lon": 116.310185
+        },
+        {
+          "title": "File:South concourse of Peking Univ. East Gate Station (20210305143415).jpg",
+          "distance_api_m": 85.8,
+          "distance_calc_m": 85.9,
+          "lat": 39.99046,
+          "lon": 116.30966
+        },
+        {
+          "title": "File:Exit D lift of Peking Univ. East Gate Station (20210216144238).jpg",
+          "distance_api_m": 86.2,
+          "distance_calc_m": 86.3,
+          "lat": 39.990453,
+          "lon": 116.309533
+        },
+        {
+          "title": "File:4221979 at Zhongguanyuan (20210216144137).jpg",
+          "distance_api_m": 97.6,
+          "distance_calc_m": 97.7,
+          "lat": 39.990556,
+          "lon": 116.309525
+        },
+        {
+          "title": "File:Platform of Peking Univ. East Gate Station (20210202165908).jpg",
+          "distance_api_m": 97.9,
+          "distance_calc_m": 98.1,
+          "lat": 39.99057,
+          "lon": 116.30971
+        },
+        {
+          "title": "File:Dongfeng Xiaokang.jpg",
+          "distance_api_m": 109.6,
+          "distance_calc_m": 109.7,
+          "lat": 39.988727,
+          "lon": 116.309981
+        },
+        {
+          "title": "File:Peking University Science and Technology Mansion (20210512142319).jpg",
+          "distance_api_m": 112.9,
+          "distance_calc_m": 113.0,
+          "lat": 39.990703,
+          "lon": 116.309631
+        },
+        {
+          "title": "File:Mock-up of Platform Nine and Three-Quarters at Peking Univ. East Gate Station (20240412120722).jpg",
+          "distance_api_m": 115.8,
+          "distance_calc_m": 115.9,
+          "lat": 39.990729,
+          "lon": 116.309774
+        },
+        {
+          "title": "File:Mock-up of Platform Nine and Three-Quarters at Peking Univ. East Gate Station (20240412120939).jpg",
+          "distance_api_m": 116.7,
+          "distance_calc_m": 116.8,
+          "lat": 39.990738,
+          "lon": 116.309652
+        },
+        {
+          "title": "File:East gate of Peking University (20250605110404).jpg",
+          "distance_api_m": 118.4,
+          "distance_calc_m": 118.5,
+          "lat": 39.990753,
+          "lon": 116.309753
+        },
+        {
+          "title": "File:40311812 at Zhongguanyuan (20170707135152).jpg",
+          "distance_api_m": 119.1,
+          "distance_calc_m": 119.2,
+          "lat": 39.990728,
+          "lon": 116.310044
+        }
+      ]
+    },
+    {
+      "route_distance_m": 200,
+      "lat": 39.9887927,
+      "lon": 116.3097772,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638441",
+          "lat": "39.988760",
+          "lng": "116.309789",
+          "heading": "177.39",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_477_8c5bc1e7bbd3002987b7b1a400a3f0ed.jpeg",
+          "shotDate": "2025-01-19 07:19:28.100"
+        },
+        {
+          "id": "2535667481",
+          "lat": "39.988797",
+          "lng": "116.309992",
+          "heading": "356.32",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_670_1960153f094d6aa053bb9cd5fad8e2e3.jpeg",
+          "shotDate": "2025-01-19 06:09:18.400"
+        }
+      ],
+      "commons_count": 10,
+      "commons_candidates": [
+        {
+          "title": "File:Dongfeng Xiaokang.jpg",
+          "distance_api_m": 18.8,
+          "distance_calc_m": 18.9,
+          "lat": 39.988727,
+          "lon": 116.309981
+        },
+        {
+          "title": "File:Platform panorama of East Gate of Peking University Station (20170523190218).jpg",
+          "distance_api_m": 56.8,
+          "distance_calc_m": 56.8,
+          "lat": 39.988511,
+          "lon": 116.310333
+        },
+        {
+          "title": "File:Exit C interface of East Gate of Peking University Station (20170707134939).jpg",
+          "distance_api_m": 58.4,
+          "distance_calc_m": 58.4,
+          "lat": 39.9893,
+          "lon": 116.309953
+        },
+        {
+          "title": "File:Exit D interface of East Gate of Peking University Station (20170707134928).jpg",
+          "distance_api_m": 58.4,
+          "distance_calc_m": 58.4,
+          "lat": 39.9893,
+          "lon": 116.309953
+        },
+        {
+          "title": "File:Platform of East Gate of Peking University Station (20170523190325).jpg",
+          "distance_api_m": 59.6,
+          "distance_calc_m": 59.7,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:TVMs in the south concourse of East Gate of Peking University Station (20170523190652).jpg",
+          "distance_api_m": 59.6,
+          "distance_calc_m": 59.7,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Concourse-to-platform lift of East Gate of Peking University Station (20170523190603).jpg",
+          "distance_api_m": 59.6,
+          "distance_calc_m": 59.7,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Platform of East Gate of Peking University Station (20170523190505).jpg",
+          "distance_api_m": 59.6,
+          "distance_calc_m": 59.7,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Interior of 043Tc2 (20160320080231).jpg",
+          "distance_api_m": 61.2,
+          "distance_calc_m": 61.3,
+          "lat": 39.988444444444,
+          "lon": 116.31033333333
+        },
+        {
+          "title": "File:Khoo Teck Puat Sports Complex, PKU (20231203164550).jpg",
+          "distance_api_m": 71.8,
+          "distance_calc_m": 71.8,
+          "lat": 39.988281,
+          "lon": 116.309264
+        }
+      ]
+    },
+    {
+      "route_distance_m": 300,
+      "lat": 39.9878969,
+      "lon": 116.3098648,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638553",
+          "lat": "39.987950",
+          "lng": "116.309849",
+          "heading": "174.93",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_484_be44767a196a122bf0e31396d843c84f.jpeg",
+          "shotDate": "2025-01-19 07:19:36.100"
+        },
+        {
+          "id": "2535667385",
+          "lat": "39.987890",
+          "lng": "116.310089",
+          "heading": "357.34",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_664_dd1d6d5b6389559cb73c0bb6304f6f07.jpeg",
+          "shotDate": "2025-01-19 06:09:12.300"
+        }
+      ],
+      "commons_count": 9,
+      "commons_candidates": [
+        {
+          "title": "File:Khoo Teck Puat Sports Complex, PKU (20231203164550).jpg",
+          "distance_api_m": 66.7,
+          "distance_calc_m": 66.7,
+          "lat": 39.988281,
+          "lon": 116.309264
+        },
+        {
+          "title": "File:Interior of 043Tc2 (20160320080231).jpg",
+          "distance_api_m": 72.8,
+          "distance_calc_m": 72.9,
+          "lat": 39.988444444444,
+          "lon": 116.31033333333
+        },
+        {
+          "title": "File:Platform of East Gate of Peking University Station (20170523190325).jpg",
+          "distance_api_m": 76.9,
+          "distance_calc_m": 76.9,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:TVMs in the south concourse of East Gate of Peking University Station (20170523190652).jpg",
+          "distance_api_m": 76.9,
+          "distance_calc_m": 76.9,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Concourse-to-platform lift of East Gate of Peking University Station (20170523190603).jpg",
+          "distance_api_m": 76.9,
+          "distance_calc_m": 76.9,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Platform of East Gate of Peking University Station (20170523190505).jpg",
+          "distance_api_m": 76.9,
+          "distance_calc_m": 76.9,
+          "lat": 39.988481,
+          "lon": 116.310347
+        },
+        {
+          "title": "File:Platform panorama of East Gate of Peking University Station (20170523190218).jpg",
+          "distance_api_m": 79.1,
+          "distance_calc_m": 79.2,
+          "lat": 39.988511,
+          "lon": 116.310333
+        },
+        {
+          "title": "File:Dongfeng Xiaokang.jpg",
+          "distance_api_m": 92.8,
+          "distance_calc_m": 92.9,
+          "lat": 39.988727,
+          "lon": 116.309981
+        },
+        {
+          "title": "File:北大2014级本科毕业典礼.jpg",
+          "distance_api_m": 112,
+          "distance_calc_m": 112.1,
+          "lat": 39.987222,
+          "lon": 116.308889
+        }
+      ]
+    },
+    {
+      "route_distance_m": 400,
+      "lat": 39.9870002,
+      "lon": 116.3099354,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638713",
+          "lat": "39.986982",
+          "lng": "116.309925",
+          "heading": "177.22",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_494_f4206b22ee6ea3a7675f5b9656bba4c0.jpeg",
+          "shotDate": "2025-01-19 07:19:46.300"
+        },
+        {
+          "id": "2535667305",
+          "lat": "39.987039",
+          "lng": "116.310140",
+          "heading": "356.48",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_659_468afb4530a005ec1cc91677e87c9039.jpeg",
+          "shotDate": "2025-01-19 06:09:07.200"
+        }
+      ],
+      "commons_count": 2,
+      "commons_candidates": [
+        {
+          "title": "File:北大2014级本科毕业典礼.jpg",
+          "distance_api_m": 92.5,
+          "distance_calc_m": 92.6,
+          "lat": 39.987222,
+          "lon": 116.308889
+        },
+        {
+          "title": "File:Zhongguancun No.2 Primary School main campus (20210104134827).jpg",
+          "distance_api_m": 106.5,
+          "distance_calc_m": 106.6,
+          "lat": 39.986047,
+          "lon": 116.309814
+        }
+      ]
+    },
+    {
+      "route_distance_m": 500,
+      "lat": 39.9861037,
+      "lon": 116.3100088,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535638889",
+          "lat": "39.986075",
+          "lng": "116.310004",
+          "heading": "175.85",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_505_82988af26eb77a3a8c0fe1fca7597f02.jpeg",
+          "shotDate": "2025-01-19 07:19:57.500"
+        },
+        {
+          "id": "2535667209",
+          "lat": "39.986086",
+          "lng": "116.310200",
+          "heading": "358.09",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_653_903363154366d9d5dcb71d67534516ec.jpeg",
+          "shotDate": "2025-01-19 06:09:01.100"
+        }
+      ],
+      "commons_count": 3,
+      "commons_candidates": [
+        {
+          "title": "File:Zhongguancun No.2 Primary School main campus (20210104134827).jpg",
+          "distance_api_m": 17.8,
+          "distance_calc_m": 17.8,
+          "lat": 39.986047,
+          "lon": 116.309814
+        },
+        {
+          "title": "File:West gate of Zhongguancun No.2 Primary School main campus (20210104134524).jpg",
+          "distance_api_m": 32.4,
+          "distance_calc_m": 32.4,
+          "lat": 39.985942,
+          "lon": 116.310325
+        },
+        {
+          "title": "File:Mind the gap sign on 025T3 (20170502093912).jpg",
+          "distance_api_m": 105.8,
+          "distance_calc_m": 105.9,
+          "lat": 39.986217,
+          "lon": 116.311242
+        }
+      ]
+    },
+    {
+      "route_distance_m": 600,
+      "lat": 39.9852434,
+      "lon": 116.3098639,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 3,
+      "kartaview_candidates": [
+        {
+          "id": "2535639273",
+          "lat": "39.985208",
+          "lng": "116.309914",
+          "heading": "198.53",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_529_867931d53888f21c34bc488e88f788d0.jpeg",
+          "shotDate": "2025-01-19 07:20:21.900"
+        },
+        {
+          "id": "2535667129",
+          "lat": "39.985353",
+          "lng": "116.310232",
+          "heading": "358.72",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10465033_648_3b0ab3adf4d2850a064610fb55f613d8.jpeg",
+          "shotDate": "2025-01-19 06:08:56.000"
+        },
+        {
+          "id": "2535834937",
+          "lat": "39.984371",
+          "lng": "116.309835",
+          "heading": "266.77",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/24/proc/10467257_288_e4259bba3b3e5d00c0549e658c6359c6.jpeg",
+          "shotDate": "2025-01-19 04:00:03.000"
+        }
+      ],
+      "commons_count": 3,
+      "commons_candidates": [
+        {
+          "title": "File:2001年中关村 - panoramio.jpg",
+          "distance_api_m": 56.6,
+          "distance_calc_m": 56.6,
+          "lat": 39.984823,
+          "lon": 116.310238
+        },
+        {
+          "title": "File:West gate of Zhongguancun No.2 Primary School main campus (20210104134524).jpg",
+          "distance_api_m": 87,
+          "distance_calc_m": 87.1,
+          "lat": 39.985942,
+          "lon": 116.310325
+        },
+        {
+          "title": "File:Zhongguancun No.2 Primary School main campus (20210104134827).jpg",
+          "distance_api_m": 89.5,
+          "distance_calc_m": 89.6,
+          "lat": 39.986047,
+          "lon": 116.309814
+        }
+      ]
+    },
+    {
+      "route_distance_m": 700,
+      "lat": 39.9852304,
+      "lon": 116.3087032,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535639833",
+          "lat": "39.984416",
+          "lng": "116.308733",
+          "heading": "264.80",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_564_25eb4b5b1c3df638b83ba6fc0c9cc16d.jpeg",
+          "shotDate": "2025-01-19 07:20:58.500"
+        },
+        {
+          "id": "2535835033",
+          "lat": "39.984358",
+          "lng": "116.308768",
+          "heading": "268.28",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/24/proc/10467257_294_2c21cd1820266f6811e205538c788df3.jpeg",
+          "shotDate": "2025-01-19 04:00:09.000"
+        }
+      ],
+      "commons_count": 0,
+      "commons_candidates": []
+    },
+    {
+      "route_distance_m": 800,
+      "lat": 39.9852279,
+      "lon": 116.3075308,
+      "kartaview_status": {
+        "apiCode": 600,
+        "apiMessage": "The request has been processed without incidents",
+        "httpCode": 200,
+        "httpMessage": "Success"
+      },
+      "kartaview_result_keys": [
+        "data",
+        "hasMoreData"
+      ],
+      "kartaview_photo_count": 2,
+      "kartaview_candidates": [
+        {
+          "id": "2535639993",
+          "lat": "39.984371",
+          "lng": "116.307605",
+          "heading": "267.33",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/21/proc/10464985_574_dac413c53a977d46e0e9cb92a2264e0c.jpeg",
+          "shotDate": "2025-01-19 07:21:08.700"
+        },
+        {
+          "id": "2535835145",
+          "lat": "39.984306",
+          "lng": "116.307592",
+          "heading": "267.03",
+          "projection": "PLANE",
+          "fieldOfView": null,
+          "fileurlProc": "https://storage13.openstreetcam.org/files/photo/2025/01/24/proc/10467257_301_b6772f1fdd4932adfe3e47e0a4fa9cd0.jpeg",
+          "shotDate": "2025-01-19 04:00:16.100"
+        }
+      ],
+      "commons_count": 0,
+      "commons_candidates": []
+    },
+    {
+      "route_distance_m": 900,
+      "lat": 39.9852013,
+      "lon": 116.3063589,
+      "kartaview_status": {
+        "apiCode": 601,
+        "apiMessage": "The request has an empty response",
+        "httpCode": 200,
+        "httpMessage": "Success",
+        "result": null
+      },
+      "kartaview_result_keys": [],
+      "kartaview_photo_count": 0,
+      "kartaview_candidates": [],
+      "commons_count": 0,
+      "commons_candidates": []
+    }
+  ]
+}
